@@ -60,5 +60,5 @@ Keep practicing Front End skills, specially focus on Prepocesors, Javascript and
 ## Author
 
 - Frontend Mentor - [@giovanigomez1](https://www.frontendmentor.io/profile/giovanigomez1)
-- Twitter - [@yourusername](https://www.twitter.com/Giovani97753873)
+- Twitter - [@Giovani97753873](https://www.twitter.com/Giovani97753873)
 
