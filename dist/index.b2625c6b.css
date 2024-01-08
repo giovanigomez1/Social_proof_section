@@ -17,6 +17,12 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (width <= 62.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   background-image: url("bg-pattern-top-desktop.7ad00b89.svg"), url("bg-pattern-bottom-desktop.de62f61e.svg");
   background-position: 0 0, 100% 100%;
@@ -30,6 +36,13 @@ body {
   position: relative;
 }
 
+@media only screen and (width <= 37.5em) {
+  body {
+    background-image: url("bg-pattern-top-mobile.701bdbf3.svg"), url("bg-pattern-bottom-mobile.976631e2.svg");
+    height: auto;
+  }
+}
+
 .container {
   max-width: 110rem;
   margin-bottom: 3rem;
@@ -37,10 +50,23 @@ body {
   box-shadow: 0 3rem 15rem #0000002e;
 }
 
+@media only screen and (width <= 37.5em) {
+  .container {
+    padding: 6rem 3rem;
+  }
+}
+
 .container .social {
   grid-template-columns: 1fr 1fr;
   margin-bottom: 6rem;
   display: grid;
+}
+
+@media only screen and (width <= 37.5em) {
+  .container .social {
+    grid-gap: 3rem;
+    grid-template-columns: 1fr;
+  }
 }
 
 .container .social__intro {
@@ -51,8 +77,33 @@ body {
   display: flex;
 }
 
+@media only screen and (width <= 50em) {
+  .container .social__intro {
+    text-align: center;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (width <= 37.5em) {
+  .container .social__intro {
+    padding: 0 2rem;
+  }
+}
+
 .container .social__intro--title {
   padding-right: 9rem;
+}
+
+@media only screen and (width <= 50em) {
+  .container .social__intro--title {
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (width <= 37.5em) {
+  .container .social__intro--title {
+    padding: 0;
+  }
 }
 
 .container .social__intro--title h1 {
@@ -85,11 +136,24 @@ body {
   display: flex;
 }
 
+@media only screen and (width <= 50em) {
+  .container .social__ratings--rate {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}
+
 .container .social__ratings--rate .stars {
   justify-content: center;
   align-items: center;
   gap: .6rem;
   display: flex;
+}
+
+@media only screen and (width <= 62.5em) {
+  .container .social__ratings--rate .stars img {
+    width: 2rem;
+  }
 }
 
 .container .social__ratings--rate h2 {
@@ -102,8 +166,20 @@ body {
   align-self: flex-start;
 }
 
+@media only screen and (width <= 37.5em) {
+  .container .social__ratings .rate1 {
+    align-self: center;
+  }
+}
+
 .container .social__ratings .rate3 {
   align-self: flex-end;
+}
+
+@media only screen and (width <= 37.5em) {
+  .container .social__ratings .rate3 {
+    align-self: center;
+  }
 }
 
 .container .reviews {
@@ -111,6 +187,13 @@ body {
   gap: 2rem;
   height: 19rem;
   display: flex;
+}
+
+@media only screen and (width <= 37.5em) {
+  .container .reviews {
+    flex-direction: column;
+    height: auto;
+  }
 }
 
 .container .reviews .review1 {
@@ -170,6 +253,13 @@ body {
   display: flex;
   position: absolute;
   top: calc(100vh - 4rem);
+}
+
+@media only screen and (width <= 37.5em) {
+  .footer {
+    position: relative;
+    top: 0;
+  }
 }
 
 .footer .attribution p {
