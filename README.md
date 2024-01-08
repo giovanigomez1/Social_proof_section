@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site URL](social-proof-312566.netlify.app)
+- Live Site URL: [Live site URL](https://social-proof-312566.netlify.app/)
 
 ## My process
 
