@@ -225,6 +225,7 @@ body {
 
 .container .reviews .review__user--image img {
   width: 3rem;
+  display: block;
 }
 
 .container .reviews .review__user--name h3 {

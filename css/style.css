@@ -146,7 +146,8 @@ body {
           border-radius: 50%;
           overflow: hidden; }
           .container .reviews .review__user--image img {
-            width: 3rem; }
+            width: 3rem;
+            display: block; }
         .container .reviews .review__user--name h3 {
           color: var(--light-grayish-magenta);
           font-size: 1.4rem;

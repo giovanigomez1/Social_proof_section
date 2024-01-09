@@ -179,6 +179,7 @@ body {
           overflow: hidden;
           & img {
             width: 3rem;
+            display: block;
           }
         }
         &--name {
